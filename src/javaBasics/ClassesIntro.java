@@ -12,7 +12,7 @@ package javaBasics;
  */
 public class ClassesIntro {
     public String format;
-    public ClassesIntro(){
+    public void ClassIntro(){
         System.out.println("This is a constructor and constructors should have a similar name to the class they belong to");
     }
     public String getFormat(){

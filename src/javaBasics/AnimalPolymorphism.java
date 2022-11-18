@@ -30,8 +30,8 @@ class Dog extends AnimalPolymorphism{
 class myMainClass{
     public static void main(String [] args){
         AnimalPolymorphism myAnimal = new AnimalPolymorphism();
-        AnimalPolymorphism myPig= new Pig();
-        AnimalPolymorphism myDog = new Dog();
+        Pig myPig= new Pig();
+        Dog myDog = new Dog();
         myAnimal.animalSound();
         myDog.animalSound();
         myPig.animalSound();
