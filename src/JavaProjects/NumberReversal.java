@@ -20,7 +20,7 @@ public class NumberReversal {
     }
     public static int reversal(int value){
         int finalnum=0;
-        while(value%10!=0){
+        while(value!=0){
             finalnum=finalnum*10+value%10;
             value=(int)value/10;
             

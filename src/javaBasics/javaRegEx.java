@@ -27,6 +27,7 @@ public class javaRegEx {
     } else {
       System.out.println("Match not found");
     }
+    
       if(MatchFinder()) {
       System.out.println("Match found");
     } else {

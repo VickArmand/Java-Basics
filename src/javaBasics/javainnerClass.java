@@ -19,7 +19,7 @@ public class javainnerClass {
   } 
   static class innerClass2{
     int z=20;
-}
+    }
 }
  class Main{
     public static void main(String [] args){
